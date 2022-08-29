@@ -11,7 +11,7 @@ app.on("ready", function() {
     mainWindow.setIcon("icon.png");
     mainWindow.loadURL("https://nm-games.eu");
     mainWindow.webContents.on("did-finish-load", function() {
-        mainWindow.webContents.executeJavaScript("if (document.querySelector('#utilitybar')) document.querySelector('#utilitybar ul').innerHTML += '<li onclick=\"self.close()\">Quit</li>';");
+        mainWindow.webContents.executeJavaScript("if (document.querySelector('#utilitybar')) document.querySelector('#utilitybar ul').innerHTML += '<li style=\"margin-top:20px;background:rgb(120,0,0)\" onclick=\"self.close()\">Quit</li>';");
     });
     mainWindow.once("ready-to-show", function() {
         mainWindow.show();
