@@ -1,0 +1,28 @@
+{
+  "name": "nm-games-window",
+  "version": "1.0.0",
+  "description": "N&M Games Desktop application!",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ILoveAndLikePizza/NM-Window.git"
+  },
+  "keywords": [
+    "nm",
+    "nm-games",
+    "gaming"
+  ],
+  "author": "N&M Games",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ILoveAndLikePizza/NM-Window/issues"
+  },
+  "homepage": "https://github.com/ILoveAndLikePizza/NM-Window#readme",
+  "devDependencies": {
+    "electron": "^20.1.0",
+    "electron-builder": "^23.3.3"
+  }
+}
